@@ -4,7 +4,6 @@ const nextConfig = {
     appDir: true,
     serverComponentsExternalPackages: ["mongoose"],
   },
-  output: "export",
   images: {
     domains: ["lh3.googleusercontent.com"],
   },
