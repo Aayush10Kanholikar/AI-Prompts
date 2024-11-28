@@ -1,5 +1,5 @@
 import "@styles/global.css";
-import { children } from "react";
+import { children, Suspense } from "react";
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 
@@ -19,8 +19,7 @@ const RootLayout = ({ children }) => {
 
           <main className="app">
             <Nav />
-            
-            {children}
+            <Suspense>{children}</Suspense>
           </main>
         </Provider>
       </body>
