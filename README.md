@@ -4,7 +4,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aayush-kanholikar-628325207/)
 
-# 🧠 AI Prompt Website
+# 🧠 AI Prompt Website   -     Check Website  --> [AI Prompt](https://ai-prompts-chi.vercel.app/)
 
 Welcome to the **AI Prompt Website**, a web application built with modern technologies to generate, manage, and store AI prompts. This project leverages the power of **Next.js**, **React.js**, **MongoDB**, and **Tailwind CSS** for seamless UI/UX and efficient data management.
 
