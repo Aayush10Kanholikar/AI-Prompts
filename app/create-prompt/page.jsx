@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 
 import Form from "@components/Form";
 
-
 const CreatePrompt = () => {
   const router = useRouter();
   const { data: session } = useSession();
@@ -20,7 +19,7 @@ const CreatePrompt = () => {
     setSubmitting(true);
 
     try {
-      const response = await fetch(`http://localhost:3000/api/prompt/new`, {
+      const response = await fetch(`/api/prompt/new`, {
         method: "POST",
         body: JSON.stringify({
           prompt: post.prompt,
